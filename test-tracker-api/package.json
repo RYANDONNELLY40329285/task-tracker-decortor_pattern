@@ -1,0 +1,23 @@
+{
+  "name": "test-tracker-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
